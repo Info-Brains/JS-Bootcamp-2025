@@ -180,11 +180,15 @@ button.addEventListener("click", () => {
 ---
 ## **7\. Common Pitfalls & Tips**
 - **Pitfalls**:
-    - Forgetting `let`/`const` when declaring variables (causes global scope pollution).
-    - Using `==` instead of `===` (strict equality is safer).
-    - Missing curly braces `{}` in loops/conditionals.
----
+	- Forgetting `let`/`const` when declaring variables (causes global scope pollution).
+	- Using `"=="` instead of `"==="` (strict equality is safer).
+	- - Missing curly braces `{}` in loops/conditionals.
+- **Tips**:
+	- Use `console.log()` to debug.
+	- Format code consistently (e.g., indentation).
+	- Practice with small projects (e.g., calculators, quizzes).
 
+---
 ## **8\. Additional Resources**
 
 - **MDN JavaScript Guide**: [Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
@@ -192,7 +196,6 @@ button.addEventListener("click", () => {
 - [**JavaScript.info**](http://JavaScript.info): [Link](https://javascript.info/)
 
 ---
-
 ### **Cheat Sheet**
 
 ```javascript

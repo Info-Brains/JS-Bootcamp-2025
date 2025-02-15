@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/JavaScript_fundamentals.md",
+                "file": "Content/JavaScript Fundamentals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JavaScript_fundamentals"
+              "title": "JavaScript Fundamentals"
             }
           }
         ]
@@ -190,9 +190,9 @@
   },
   "active": "4d92548b18639911",
   "lastOpenFiles": [
+    "Content/JavaScript Fundamentals.md",
     "index.md",
     "Timeline/Week 01.md",
-    "Content/JavaScript_fundamentals.md",
     "_dist/content/javascript_fundamentals.html",
     "_dist/content",
     "_dist/lib/search-index.json",
