@@ -6,7 +6,6 @@
       {
         "id": "94a94f4754a1c7e7",
         "type": "tabs",
-        "dimension": 64.40355329949239,
         "children": [
           {
             "id": "2da0df729a717c52",
@@ -23,23 +22,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "c4f45948aef31b89",
-        "type": "tabs",
-        "dimension": 35.59644670050762,
-        "children": [
-          {
-            "id": "a53bb1327a280224",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -51,6 +33,7 @@
       {
         "id": "5fe76a4af3be0a83",
         "type": "tabs",
+        "dimension": 69.94219653179191,
         "children": [
           {
             "id": "3b51d86736b26638",
@@ -93,10 +76,27 @@
             }
           }
         ]
+      },
+      {
+        "id": "6dcdf795dfdfbca7",
+        "type": "tabs",
+        "dimension": 30.057803468208093,
+        "children": [
+          {
+            "id": "a53bb1327a280224",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 326.5
   },
   "right": {
     "id": "9dd95aea741a2826",
