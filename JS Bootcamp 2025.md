@@ -98,22 +98,3 @@ line:("pro tip" OR "recommendation") from:[[Dhiya-Mentor-Notes]]
 
 ###### 🔄 Last Synced: {{date:YYYY-MM-DD HH:mm}}
 ###### 🏷️ Tags: #bootcamp/home #active 
-```
-
-### Obsidian-Specific Enhancements:
-4. **Dataview Integration**: Dynamic table for roadmap (requires [[timeline]] notes)
-5. **Button Links**: Quick navigation to key resources
-6. **Collapsible Sections**: For less-cluttered viewing
-7. **Query Block**: Auto-pulls mentor tips from notes
-8. **Wiki-Style Links**: `[[ ]]` for easy note connections
-9. **Callout Boxes**: For urgent reminders
-10. **Metadata**: Frontmatter for search/tagging
-11. **Templater-Ready**: Compatible with plugins
-
-### Recommended Obsidian Setup:
-12. Enable **Dataview** plugin
-13. Install **Templater** for button functionality
-14. Use **Callout Manager** for custom boxes
-15. Create linked notes (e.g. `JavaScript Fundamentals.md`) for full wiki benefits
-
-Would you like me to create templates for any of the linked notes (e.g. `Week 1 - JavaScript Intro.md`)?
