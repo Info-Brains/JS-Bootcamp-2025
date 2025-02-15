@@ -112,7 +112,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5
+    "width": 326.5,
+    "collapsed": true
   },
   "right": {
     "id": "9dd95aea741a2826",
@@ -206,7 +207,7 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "d9c1409e90d8639c",
+  "active": "9a7b4e3349e9d76f",
   "lastOpenFiles": [
     "Slides/Week 01.md",
     "Timeline/Week 01.md",
