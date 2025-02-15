@@ -33,6 +33,7 @@
       {
         "id": "5fe76a4af3be0a83",
         "type": "tabs",
+        "dimension": 73.3140655105973,
         "children": [
           {
             "id": "3b51d86736b26638",
@@ -79,6 +80,7 @@
       {
         "id": "3d7bd5610940573b",
         "type": "tabs",
+        "dimension": 26.685934489402698,
         "children": [
           {
             "id": "2da0df729a717c52",
@@ -188,47 +190,9 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "floating": {
-    "id": "7c456495b707f28c",
-    "type": "floating",
-    "children": [
-      {
-        "id": "d1d3885772bcb815",
-        "type": "window",
-        "children": [
-          {
-            "id": "d9e30e37901acc50",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "992adfd03d2f61cc",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Development Environment Setup.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Development Environment Setup"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 0,
-        "y": 0,
-        "width": 1920,
-        "height": 1080,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "992adfd03d2f61cc",
+  "active": "9a7b4e3349e9d76f",
   "lastOpenFiles": [
+    "Development Environment Setup.md",
     "Timeline/Week 01.md",
     "Recap/Live Session Recap.md",
     "index.md",
@@ -244,7 +208,6 @@
     "_dist/lib/fonts/535a6cf662596b3bd6a6.woff2",
     "_dist/lib/fonts/cbe0ae49c52c920fd563.woff2",
     "_dist/lib/fonts/b5f0f109bc88052d4000.woff2",
-    "Development Environment Setup.md",
     "Group Project Requirements.md",
     "Hackathon Ticket.md",
     "Content/State Management.md",
