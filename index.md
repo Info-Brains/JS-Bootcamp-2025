@@ -17,7 +17,7 @@ TABLE WITHOUT ID
 	week AS "Week",
 	topics AS "Focus Areas",
 	goal AS "Goal"
-FROM "bootcamp/timeline"
+FROM "Timeline"
 WHERE contains(type, "week")
 SORT week asc
 ```

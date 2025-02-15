@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Content/JavaScript Fundamentals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "JavaScript Fundamentals"
             }
           }
         ]
@@ -192,9 +192,13 @@
   },
   "active": "2da0df729a717c52",
   "lastOpenFiles": [
-    "content/JavaScript Fundamentals.md",
-    "content",
+    "Timeline/Week 01.md",
     "index.md",
+    "bootcamp/timeline.md",
+    "Untitled.md",
+    "Timeline",
+    "Content/JavaScript Fundamentals.md",
+    "Content",
     "_dist/index.html",
     "_dist/lib/search-index.json",
     "_dist/lib/metadata.json",
@@ -203,7 +207,6 @@
     "_dist/lib/styles/main-styles.css",
     "_dist/lib/styles/global-variable-styles.css",
     "_dist/lib/styles",
-    "_dist/lib/scripts/graph-data.js",
     "_dist/lib/media/favicon.png",
     "_dist/lib/media/6155340132a851f6089e.svg",
     "lib/media/favicon.png",
