@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JS Bootcamp 2025.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JS Bootcamp 2025"
+              "title": "index"
             }
           }
         ]
@@ -192,20 +192,20 @@
   },
   "active": "2da0df729a717c52",
   "lastOpenFiles": [
-    "dist/lib/search-index.json",
-    "dist/lib/metadata.json",
-    "dist/lib/styles/other-plugins.css",
-    "dist/lib/styles/obsidian.css",
-    "dist/lib/styles/main-styles.css",
-    "dist/lib/styles/global-variable-styles.css",
-    "dist/lib/styles",
-    "dist/lib/scripts/graph-data.js",
-    "dist/lib/scripts/minisearch.js",
-    "dist/lib/scripts/pixi.js",
-    "dist/lib/scripts/tinycolor.js",
-    "dist/lib/media/favicon.png",
-    "dist/lib/media/6155340132a851f6089e.svg",
-    "JS Bootcamp 2025.md",
+    "content/JavaScript Fundamentals.md",
+    "content",
+    "index.md",
+    "_dist/index.html",
+    "_dist/lib/search-index.json",
+    "_dist/lib/metadata.json",
+    "_dist/lib/styles/other-plugins.css",
+    "_dist/lib/styles/obsidian.css",
+    "_dist/lib/styles/main-styles.css",
+    "_dist/lib/styles/global-variable-styles.css",
+    "_dist/lib/styles",
+    "_dist/lib/scripts/graph-data.js",
+    "_dist/lib/media/favicon.png",
+    "_dist/lib/media/6155340132a851f6089e.svg",
     "lib/media/favicon.png",
     "lib/media/6155340132a851f6089e.svg"
   ]

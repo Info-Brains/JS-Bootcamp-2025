@@ -4,7 +4,8 @@ aliases: [Bootcamp Home]
 last_updated: 2025-02-13
 ---
 
-# 🚀 10-Week Web Development Bootcamp
+# JS Bootcamp 2025
+## 🚀 10-Week Web Development Bootcamp
 
 **👋 Welcome, Bootcamp Participants!**  
 I’m **[[Kellouche Dhiya]]**, your mentor for this journey. Let’s crush these 10 weeks!  
