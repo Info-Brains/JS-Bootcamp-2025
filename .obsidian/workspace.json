@@ -190,6 +190,7 @@
   },
   "active": "9a7b4e3349e9d76f",
   "lastOpenFiles": [
+    "index.md",
     "Development Environment Setup.md",
     "Group Project Requirements.md",
     "_dist/hackathon-ticket.html",
@@ -200,7 +201,6 @@
     "_dist/Content/reactjs-basics.html",
     "_dist/Content/prisma-orm.html",
     "_dist/Content/expressjs.html",
-    "index.md",
     "_dist/Content/es6.html",
     "_dist/Content/dom-manipulation.html",
     "Hackathon Ticket.md",
