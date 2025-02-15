@@ -1,23 +1,4 @@
 _Your Gateway to Web Development_
-
----
-## **Table of Contents**
-
-1. [What is JavaScript?](#1-what-is-javascript)
-2. [Setting Up Your Environment](#2-setting-up-your-environment)
-3. [Basic Syntax & Concepts](#3-basic-syntax--concepts)
-    - Variables (`let`, `const`, `var`)
-    - Data Types
-    - Operators
-    - Functions
-    - Control Flow (`if/else`, loops)
-4. [DOM Manipulation Basics](#4-dom-manipulation-basics)
-5. [Live Session Recap](#5-live-session-recap)
-6. [Practice Exercises](#6-practice-exercises)
-7. [Common Pitfalls & Tips](#7-common-pitfalls--tips)
-8. [Additional Resources](#8-additional-resources)
-
----
 ## **1. What is JavaScript?**
 
 - **Definition**: JavaScript (JS) is a programming language used to make websites **interactive**.

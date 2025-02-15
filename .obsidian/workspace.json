@@ -210,15 +210,15 @@
     "type": "floating",
     "children": [
       {
-        "id": "123428ce47c3c6c4",
+        "id": "50e834e165c7fcc0",
         "type": "window",
         "children": [
           {
-            "id": "3ac472aec255009b",
+            "id": "6c2ed9e18ff61100",
             "type": "tabs",
             "children": [
               {
-                "id": "d7cf7e85d02d0aaf",
+                "id": "a7531b22b47f9cec",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -244,7 +244,7 @@
       }
     ]
   },
-  "active": "d7cf7e85d02d0aaf",
+  "active": "a7531b22b47f9cec",
   "lastOpenFiles": [
     "Content/JavaScript Fundamentals.md",
     "Timeline/Week 01.md",
