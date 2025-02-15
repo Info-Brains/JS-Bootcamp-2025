@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Content/JavaScript Fundamentals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "JavaScript Fundamentals"
             }
           }
         ]
@@ -192,11 +192,13 @@
   },
   "active": "9a7b4e3349e9d76f",
   "lastOpenFiles": [
+    "index.md",
     "Development Environment Setup.md",
     "Timeline/Week 01.md",
     "Recap/Live Session Recap.md",
-    "index.md",
     "Content/JavaScript Fundamentals.md",
+    "Group Project Requirements.md",
+    "Hackathon Ticket.md",
     "_dist/lib/metadata.json",
     "_dist/lib/media/6155340132a851f6089e.svg",
     "_dist/lib/media",
@@ -208,8 +210,6 @@
     "_dist/lib/fonts/535a6cf662596b3bd6a6.woff2",
     "_dist/lib/fonts/cbe0ae49c52c920fd563.woff2",
     "_dist/lib/fonts/b5f0f109bc88052d4000.woff2",
-    "Group Project Requirements.md",
-    "Hackathon Ticket.md",
     "Content/State Management.md",
     "Content/SQLite Database.md",
     "Content/ReactJS Basics.md",

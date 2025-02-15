@@ -25,7 +25,6 @@ Duration: 90 min
 ✅ **How Browsers Render Websites**
 - The role of the DOM (`Document Object Model`)
 - How JavaScript manipulates the DOM
-
 ---
 ### 2. Introduction to JavaScript (60 min)
 
@@ -46,7 +45,6 @@ Duration: 90 min
 ✅ **Live Demo**
 - Open the browser console (`Chrome DevTools`)
 - Experiment with simple JS commands
-
 ---
 ### **Outcome:**
 

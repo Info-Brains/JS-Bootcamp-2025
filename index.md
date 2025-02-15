@@ -3,7 +3,6 @@ tags: [bootcamp/home, mentor/dhiya, timeline]
 aliases: [Bootcamp Home]
 last_updated: 2025-02-13
 ---
-
 # JS Bootcamp 2025
 ## 🚀 10-Week Web Development Bootcamp
 
@@ -36,7 +35,6 @@ I’m **[[Kellouche Dhiya]]**, your mentor for this journey. Let’s crush these
 > **Prize**:: Special mention in ***InfoBrains Community newsletter***
 
 ---
-
 ## 🕒 Learning System
 ```collapse
 - **Weekly Rhythm**:
@@ -60,5 +58,3 @@ I’m **[[Kellouche Dhiya]]**, your mentor for this journey. Let’s crush these
 
 > [!note]- Registration Closed!
 > - 100 validated participants 🎉  
-
-

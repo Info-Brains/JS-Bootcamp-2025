@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JS-Bootcamp-2025]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://js-bootcamp-2025.infobrains.club/</link><image><url>https://js-bootcamp-2025.infobrains.club/lib/media/favicon.png</url><title>JS-Bootcamp-2025</title><link>https://js-bootcamp-2025.infobrains.club/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 15 Feb 2025 13:01:48 GMT</lastBuildDate><atom:link href="https://js-bootcamp-2025.infobrains.club/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 15 Feb 2025 13:01:47 GMT</pubDate><copyright><![CDATA[Kellouche dhiya]]></copyright><ttl>60</ttl><dc:creator>Kellouche dhiya</dc:creator><item><title><![CDATA[JavaScript Fundamentals]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JS-Bootcamp-2025]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://js-bootcamp-2025.infobrains.club/</link><image><url>https://js-bootcamp-2025.infobrains.club/lib/media/favicon.png</url><title>JS-Bootcamp-2025</title><link>https://js-bootcamp-2025.infobrains.club/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 15 Feb 2025 13:09:26 GMT</lastBuildDate><atom:link href="https://js-bootcamp-2025.infobrains.club/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 15 Feb 2025 13:09:26 GMT</pubDate><copyright><![CDATA[Kellouche dhiya]]></copyright><ttl>60</ttl><dc:creator>Kellouche dhiya</dc:creator><item><title><![CDATA[JavaScript Fundamentals]]></title><description><![CDATA[ 
  <br><br>
 <br>Definition: JavaScript (JS) is a programming language used to make websites interactive.
 <br>Role in Web Development:
@@ -129,7 +129,7 @@ const user = {
   name: "Bob",
   age: 30
 };
-]]></description><link>https://js-bootcamp-2025.infobrains.club/Recap/Live Session Recap.html</link><guid isPermaLink="false">Recap/Live Session Recap.md</guid><dc:creator><![CDATA[Kellouche dhiya]]></dc:creator><pubDate>Sat, 15 Feb 2025 12:26:04 GMT</pubDate></item><item><title><![CDATA[Week 01]]></title><description><![CDATA[ 
+]]></description><link>https://js-bootcamp-2025.infobrains.club/Recap/Live Session Recap.html</link><guid isPermaLink="false">Recap/Live Session Recap.md</guid><dc:creator><![CDATA[Kellouche dhiya]]></dc:creator><pubDate>Sat, 15 Feb 2025 13:09:01 GMT</pubDate></item><item><title><![CDATA[Week 01]]></title><description><![CDATA[ 
  <br><br>✅ What is the Web?<br>
 <br>How the web works: Clients, Servers &amp; the Internet
 <br>Websites vs. Web Applications
@@ -159,7 +159,7 @@ const user = {
 <br><br><br>By the end of Week 1, participants will:<br>
 ✅ Understand how the web works and JavaScript’s role in it<br>
 ✅ Write their first JavaScript code in the browser<br>
-✅ Gain a basic understanding of JavaScript variables and data types]]></description><link>https://js-bootcamp-2025.infobrains.club/Timeline/Week 01.html</link><guid isPermaLink="false">Timeline/Week 01.md</guid><dc:creator><![CDATA[Kellouche dhiya]]></dc:creator><pubDate>Sat, 15 Feb 2025 09:59:11 GMT</pubDate></item><item><title><![CDATA[Development Environment Setup]]></title><description><![CDATA[ 
+✅ Gain a basic understanding of JavaScript variables and data types]]></description><link>https://js-bootcamp-2025.infobrains.club/Timeline/Week 01.html</link><guid isPermaLink="false">Timeline/Week 01.md</guid><dc:creator><![CDATA[Kellouche dhiya]]></dc:creator><pubDate>Sat, 15 Feb 2025 13:08:27 GMT</pubDate></item><item><title><![CDATA[Development Environment Setup]]></title><description><![CDATA[ 
  <br><br>Why? Node.js allows you to run JavaScript outside the browser, and npm (Node Package Manager) helps manage dependencies.<br>• Download and install Node.js from <a data-tooltip-position="top" aria-label="https://nodejs.org/" rel="noopener nofollow" class="external-link" href="https://nodejs.org/" target="_blank">nodejs.org</a> (choose the LTS version)<br>
 • Verify installation:<br>node -v
 npm -v
@@ -181,8 +181,9 @@ cd js-bootcamp
 <br>This creates a package.json file to manage project dependencies.<br><br><br>If you’re working with HTML, CSS, and JavaScript:<br>
 <br>Install Live Server extension in VS Code
 <br>Open an index.html file
-<br>Click “Go Live” in the bottom-right of VS Code
-<br>OR use this command in the terminal:<br>npx serve .
+<br>Click “Go Live” in the bottom-right of VS Code<br>
+OR use this command in the terminal:
+<br>npx serve .
 <br><br><br># Check Node.js and npm versions
 node -v
 npm -v
@@ -206,7 +207,7 @@ git status
 # Commit changes
 git add .
 git commit -m "First commit"
-<br><br><br>You’re now ready to start coding in JavaScript! 🎉]]></description><link>https://js-bootcamp-2025.infobrains.club/Development Environment Setup.html</link><guid isPermaLink="false">Development Environment Setup.md</guid><dc:creator><![CDATA[Kellouche dhiya]]></dc:creator><pubDate>Sat, 15 Feb 2025 12:35:54 GMT</pubDate></item><item><title><![CDATA[JS Bootcamp 2025]]></title><description><![CDATA[ 
+<br><br><br>You’re now ready to start coding in JavaScript! 🎉]]></description><link>https://js-bootcamp-2025.infobrains.club/Development Environment Setup.html</link><guid isPermaLink="false">Development Environment Setup.md</guid><dc:creator><![CDATA[Kellouche dhiya]]></dc:creator><pubDate>Sat, 15 Feb 2025 13:08:04 GMT</pubDate></item><item><title><![CDATA[JS Bootcamp 2025]]></title><description><![CDATA[ 
  <br><br><br>👋 Welcome, Bootcamp Participants!<br>
 I’m <a data-href="Kellouche Dhiya" href="https://js-bootcamp-2025.infobrains.club/Kellouche Dhiya" class="internal-link" target="_self" rel="noopener nofollow">Kellouche Dhiya</a>, your mentor for this journey. Let’s crush these 10 weeks!  <br><br><br><br><br><br>Core Focus:: <a data-href="JavaScript Fundamentals" href="https://js-bootcamp-2025.infobrains.club/Content/JavaScript Fundamentals.html" class="internal-link" target="_self" rel="noopener nofollow">JavaScript Fundamentals</a> | <a data-href="ES6" href="https://js-bootcamp-2025.infobrains.club/Content/ES6.html" class="internal-link" target="_self" rel="noopener nofollow">ES6</a> | <a data-href="Advanced Data Structures" href="https://js-bootcamp-2025.infobrains.club/Content/Advanced Data Structures.html" class="internal-link" target="_self" rel="noopener nofollow">Advanced Data Structures</a> | <a data-href="DOM Manipulation" href="https://js-bootcamp-2025.infobrains.club/Content/DOM Manipulation.html" class="internal-link" target="_self" rel="noopener nofollow">DOM Manipulation</a>  <br><br>Core Focus:: <a data-href="ReactJS Basics" href="https://js-bootcamp-2025.infobrains.club/Content/ReactJS Basics.html" class="internal-link" target="_self" rel="noopener nofollow">ReactJS Basics</a> | <a data-href="State Management" href="https://js-bootcamp-2025.infobrains.club/Content/State Management.html" class="internal-link" target="_self" rel="noopener nofollow">State Management</a> | <a data-href="Component Architecture" href="https://js-bootcamp-2025.infobrains.club/Content/Component Architecture.html" class="internal-link" target="_self" rel="noopener nofollow">Component Architecture</a>  <br><br>Core Focus:: <a data-href="ExpressJS" href="https://js-bootcamp-2025.infobrains.club/Content/ExpressJS.html" class="internal-link" target="_self" rel="noopener nofollow">ExpressJS</a> | <a data-href="Prisma ORM" href="https://js-bootcamp-2025.infobrains.club/Content/Prisma ORM.html" class="internal-link" target="_self" rel="noopener nofollow">Prisma ORM</a> | <a data-href="SQLite Database" href="https://js-bootcamp-2025.infobrains.club/Content/SQLite Database.html" class="internal-link" target="_self" rel="noopener nofollow">SQLite Database</a>  <br><br>Final Challenge:: <a data-href="Group Project Requirements" href="https://js-bootcamp-2025.infobrains.club/Group Project Requirements.html" class="internal-link" target="_self" rel="noopener nofollow">Group Project Requirements</a> → Earn your <a data-href="Hackathon Ticket" href="https://js-bootcamp-2025.infobrains.club/Hackathon Ticket.html" class="internal-link" target="_self" rel="noopener nofollow">Hackathon Ticket</a>  <br><br><br>Hackathon Timeline (Post-Bootcamp)
 Day 1:: 6-hour coding sprint (Teams of 3)<br>
@@ -229,4 +230,4 @@ Preparation:: Install <a data-href="Development Environment Setup" href="https:/
 
 <br>100 validated participants 🎉  
 
-]]></description><link>https://js-bootcamp-2025.infobrains.club/index.html</link><guid isPermaLink="false">index.md</guid><dc:creator><![CDATA[Kellouche dhiya]]></dc:creator><pubDate>Sat, 15 Feb 2025 12:58:21 GMT</pubDate></item></channel></rss>
+]]></description><link>https://js-bootcamp-2025.infobrains.club/index.html</link><guid isPermaLink="false">index.md</guid><dc:creator><![CDATA[Kellouche dhiya]]></dc:creator><pubDate>Sat, 15 Feb 2025 13:07:08 GMT</pubDate></item></channel></rss>

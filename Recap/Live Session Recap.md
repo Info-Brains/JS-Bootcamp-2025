@@ -1,4 +1,3 @@
-
 **What We Covered**:
 1.  Wrote "Hello, World!" in the console.
 2.  Created variables and practiced arithmetic.
@@ -7,7 +6,6 @@
 5.  Built a simple click counter with DOM manipulation.
 
 **Code from Live Demo**:
-
 ```html
 <!DOCTYPE html>
 <html>
@@ -27,14 +25,11 @@
 </body>
 </html>
 ```
-
 ---
 ## **1\. Practice Exercises**
-
 1.  **FizzBuzz**: Print numbers 1-100. For multiples of 3, print "Fizz"; for multiples of 5, print "Buzz"; for both, print "FizzBuzz".
 2.  **Temperature Converter**: Write a function that converts Celsius to Fahrenheit.
 3.  **Interactive List**: Create a webpage where users can add/remove list items using a text input and buttons.
-
 ---
 ## **2\. Common Pitfalls & Tips**
 - **Pitfalls**:
@@ -45,14 +40,12 @@
 	- Use `console.log()` to debug.
 	- Format code consistently (e.g., indentation).
 	- Practice with small projects (e.g., calculators, quizzes).
-
 ---
 ## **3\. Additional Resources**
 
 - **MDN JavaScript Guide**: [Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - **FreeCodeCamp JS Course**: [Link](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
 - [**JavaScript.info**](http://JavaScript.info): [Link](https://javascript.info/)
-
 ---
 ### **Cheat Sheet**
 
