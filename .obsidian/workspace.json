@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "693cf8c34318af3e",
+    "type": "split",
+    "children": [
+      {
+        "id": "94a94f4754a1c7e7",
+        "type": "tabs",
+        "dimension": 64.40355329949239,
+        "children": [
+          {
+            "id": "2da0df729a717c52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JS Bootcamp 2025.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "JS Bootcamp 2025"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c4f45948aef31b89",
+        "type": "tabs",
+        "dimension": 35.59644670050762,
+        "children": [
+          {
+            "id": "a53bb1327a280224",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e913ee9185dd358f",
+    "type": "split",
+    "children": [
+      {
+        "id": "5fe76a4af3be0a83",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3b51d86736b26638",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "fcf4d1db19191c09",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "bdc1b34954415a27",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9dd95aea741a2826",
+    "type": "split",
+    "children": [
+      {
+        "id": "df1fc0050c218bad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b5fafebc4c340abe",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Welcome"
+            }
+          },
+          {
+            "id": "e88199a24d2bb366",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "3ef21ac55114f65d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b222ce0ecb14c66a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "obsidian-git:Open Git source control": false,
+      "omnisearch:Omnisearch": false
+    }
+  },
+  "active": "2da0df729a717c52",
+  "lastOpenFiles": [
+    "JS Bootcamp 2025.md",
+    "Untitled",
+    "Slides",
+    "JS Bootcamp 2025.md"
+  ]
+}
