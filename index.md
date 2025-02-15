@@ -65,5 +65,5 @@ SORT week asc
 
 > [!note]- Registration Closed!
 > - 100 validated participants 🎉  
-> - Preparation tips start **Friday** in [[Pre-Bootcamp Hub]]
+
 
