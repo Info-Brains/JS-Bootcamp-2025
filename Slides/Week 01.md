@@ -3,8 +3,22 @@
 Week 1
 
 ---
-## What is JavaScript
+## What is JavaScript?
 
 ---
-
 ## What is Web in the first place?
+
+---
+## Web Languages
+---
+## 1.HTML
+
+The skeleton of the web
+
+---
+## 2. CSS
+
+Design The component
+
+---
+#
