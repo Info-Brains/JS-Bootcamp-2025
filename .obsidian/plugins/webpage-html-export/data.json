@@ -30,7 +30,7 @@
   "authorName": "Kellouche dhiya",
   "vaultTitle": "JS-Bootcamp-2025",
   "exportPreset": "website",
-  "openAfterExport": true,
+  "openAfterExport": false,
   "graphAttractionForce": 1,
   "graphLinkLength": 10,
   "graphRepulsionForce": 150,
@@ -43,9 +43,11 @@
   "defaultFileIcon": "lucide//file",
   "defaultFolderIcon": "lucide//folder",
   "defaultMediaIcon": "lucide//file-image",
-  "exportPath": "/Users/dhiya/Documents/JS-Bootcamp-2025/dist",
+  "exportPath": "/Users/dhiya/Documents/JS-Bootcamp-2025/_dist",
   "filesToExport": [
     [
+      "Content",
+      "Timeline",
       "index.md"
     ]
   ]
