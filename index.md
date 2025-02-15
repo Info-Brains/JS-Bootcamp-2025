@@ -38,7 +38,7 @@ SORT week asc
 > [!success]- Hackathon Timeline (Post-Bootcamp)
 > **Day 1**:: 6-hour coding sprint (Teams of 3)  
 > **Day 2**:: Presentations + Winner Announcements  
-> **Prize**:: Special mention in [[Algiers Tech Community]] newsletter
+> **Prize**:: Special mention in ***InfoBrains Community newsletter***
 
 ---
 
@@ -61,7 +61,7 @@ SORT week asc
 > **📅 Saturday @ 17:00**  
 > **📍 First Session!**  
 > **Topics**:: ![[JavaScript Fundamentals]] + [[Web Dev 101]]  
-> **Preparation**:: Install [[Dev Environment Setup]]
+> **Preparation**:: Install [[Development Environment Setup]]
 
 > [!note]- Registration Closed!
 > - 100 validated participants 🎉  
