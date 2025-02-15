@@ -24,11 +24,11 @@
         ]
       },
       {
-        "id": "3ad86876e9abb97f",
+        "id": "448d0bc4ab2b7086",
         "type": "tabs",
         "children": [
           {
-            "id": "1594de10f6073533",
+            "id": "d9c1409e90d8639c",
             "type": "leaf",
             "state": {
               "type": "reveal-preview-view",
@@ -112,8 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5,
-    "collapsed": true
+    "width": 326.5
   },
   "right": {
     "id": "9dd95aea741a2826",
@@ -207,11 +206,11 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "9a7b4e3349e9d76f",
+  "active": "d9c1409e90d8639c",
   "lastOpenFiles": [
+    "Slides/Week 01.md",
     "Timeline/Week 01.md",
     "Recap/Live Session 01 Recap.md",
-    "Slides/Week 01.md",
     "Content/JavaScript Fundamentals.md",
     "Slides",
     "index.md",
