@@ -206,19 +206,19 @@
     }
   },
   "floating": {
-    "id": "c7961200580924f6",
+    "id": "7c456495b707f28c",
     "type": "floating",
     "children": [
       {
-        "id": "88aae7c2f83e2ca5",
+        "id": "123428ce47c3c6c4",
         "type": "window",
         "children": [
           {
-            "id": "4d0061cb2156b7ce",
+            "id": "3ac472aec255009b",
             "type": "tabs",
             "children": [
               {
-                "id": "48976c62d5a51a5e",
+                "id": "d7cf7e85d02d0aaf",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -244,7 +244,7 @@
       }
     ]
   },
-  "active": "48976c62d5a51a5e",
+  "active": "d7cf7e85d02d0aaf",
   "lastOpenFiles": [
     "Content/JavaScript Fundamentals.md",
     "Timeline/Week 01.md",
