@@ -60,7 +60,7 @@ SORT week asc
 > [!warning]- Next Session
 > **📅 Saturday @ 17:00**  
 > **📍 First Session!**  
-> **Topics**:: ![[JavaScript Fundamentals]] + [[Web Dev 101]]  
+> **Topics**:: ![[JavaScript Fundamentals]]
 > **Preparation**:: Install [[Development Environment Setup]]
 
 > [!note]- Registration Closed!
