@@ -21,7 +21,7 @@
   "deleteOldFiles": true,
   "addThemeToggle": true,
   "addOutline": false,
-  "addFileNav": true,
+  "addFileNav": false,
   "addSearchBar": false,
   "addGraphView": false,
   "addTitle": true,
