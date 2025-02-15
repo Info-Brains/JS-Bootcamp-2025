@@ -26,11 +26,11 @@
   "addGraphView": true,
   "addTitle": true,
   "addRSSFeed": true,
-  "siteURL": "",
-  "authorName": "",
+  "siteURL": "https://js-bootcamp-2025.infobrains.club/",
+  "authorName": "Kellouche dhiya",
   "vaultTitle": "JS-Bootcamp-2025",
   "exportPreset": "website",
-  "openAfterExport": false,
+  "openAfterExport": true,
   "graphAttractionForce": 1,
   "graphLinkLength": 10,
   "graphRepulsionForce": 150,
@@ -43,8 +43,10 @@
   "defaultFileIcon": "lucide//file",
   "defaultFolderIcon": "lucide//folder",
   "defaultMediaIcon": "lucide//file-image",
-  "exportPath": "",
+  "exportPath": "/Users/dhiya/Documents/JS-Bootcamp-2025/dist",
   "filesToExport": [
-    []
+    [
+      "all"
+    ]
   ]
 }

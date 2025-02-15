@@ -186,14 +186,27 @@
       "command-palette:Open command palette": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
       "obsidian-git:Open Git source control": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "webpage-html-export:Export Vault to HTML": false
     }
   },
   "active": "2da0df729a717c52",
   "lastOpenFiles": [
+    "dist/lib/search-index.json",
+    "dist/lib/metadata.json",
+    "dist/lib/styles/other-plugins.css",
+    "dist/lib/styles/obsidian.css",
+    "dist/lib/styles/main-styles.css",
+    "dist/lib/styles/global-variable-styles.css",
+    "dist/lib/styles",
+    "dist/lib/scripts/graph-data.js",
+    "dist/lib/scripts/minisearch.js",
+    "dist/lib/scripts/pixi.js",
+    "dist/lib/scripts/tinycolor.js",
+    "dist/lib/media/favicon.png",
+    "dist/lib/media/6155340132a851f6089e.svg",
     "JS Bootcamp 2025.md",
-    "Untitled",
-    "Slides",
-    "JS Bootcamp 2025.md"
+    "lib/media/favicon.png",
+    "lib/media/6155340132a851f6089e.svg"
   ]
 }
