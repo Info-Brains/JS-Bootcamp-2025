@@ -21,4 +21,10 @@ The skeleton of the web
 Design The component
 
 ---
-#
+## 3. JavaScript
+
+(behavior, events, logic)
+
+---
+
+Let's start coding :)
