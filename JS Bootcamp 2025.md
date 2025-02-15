@@ -24,30 +24,16 @@ SORT week asc
 ### 🔍 Phase Details
 #### 🧩 **Weeks 1-3**  
 **Core Focus**:: [[JavaScript Fundamentals]] | [[ES6]] | [[Advanced Data Structures]] | [[DOM Manipulation]]  
-```button
-name Jump to Week 1 Resources
-type link
-action [[Week 1 - JavaScript Intro]]
-```
-
 #### ⚛️ **Weeks 4-6**  
 **Core Focus**:: [[ReactJS Basics]] | [[State Management]] | [[Component Architecture]]  
-```button
-name React Preview
-type link
-action [[ReactJS Crash Course]]
-```
-
 #### ⚙️ **Weeks 7-9**  
 **Core Focus**:: [[ExpressJS]] | [[Prisma ORM]] | [[SQLite Database]]  
-^backend-roadmap
-
 #### 🏁 **Week 10**  
 **Final Challenge**:: [[Group Project Requirements]] → Earn your **[[Hackathon Ticket]]**  
 
 ---
-
 ## 🏆 Hackathon Overview
+
 > [!success]- Hackathon Timeline (Post-Bootcamp)
 > **Day 1**:: 6-hour coding sprint (Teams of 3)  
 > **Day 2**:: Presentations + Winner Announcements  
@@ -68,8 +54,8 @@ action [[ReactJS Crash Course]]
 ```
 
 ---
-
 ## 🔥 Live Updates
+
 > [!warning]- Next Session
 > **📅 Saturday @ 17:00**  
 > **📍 First Session!**  
@@ -77,24 +63,6 @@ action [[ReactJS Crash Course]]
 > **Preparation**:: Install [[Dev Environment Setup]]
 
 > [!note]- Registration Closed!
-> - 80+ validated participants 🎉  
-> - Preparation tips start [[Friday]] in [[Pre-Bootcamp Hub]]
+> - 100 validated participants 🎉  
+> - Preparation tips start **Friday** in [[Pre-Bootcamp Hub]]
 
----
-
-## 💡 Mentor Tips
-```query
-line:("pro tip" OR "recommendation") from:[[Dhiya-Mentor-Notes]]
-```
-
----
-
-## ❓ Support Channels
-1. `⁠❓┆questions` - General queries
-2. `⁠🛟┆tech-support` - Environment issues
-3. `⁠💡┆challenge-help` - Weekly task assistance
-
----
-
-###### 🔄 Last Synced: {{date:YYYY-MM-DD HH:mm}}
-###### 🏷️ Tags: #bootcamp/home #active 
