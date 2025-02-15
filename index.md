@@ -12,16 +12,11 @@ I’m **[[Kellouche Dhiya]]**, your mentor for this journey. Let’s crush these
 
 ---
 ## 🗺️ Bootcamp Roadmap
-```dataview
-TABLE WITHOUT ID
-	week AS "Week",
-	topics AS "Focus Areas",
-	goal AS "Goal"
-FROM "Timeline"
-WHERE contains(type, "week")
-SORT week asc
-```
 
+| Week | Focus Areas               | Goal                               |
+| ---- | ------------------------- | ---------------------------------- |
+| 1    | - JavaScript Fundamentals | Establish core programming concept |
+| 2    | - ES6 Syntax              |                                    |
 ### 🔍 Phase Details
 #### 🧩 **Weeks 1-3**  
 **Core Focus**:: [[JavaScript Fundamentals]] | [[ES6]] | [[Advanced Data Structures]] | [[DOM Manipulation]]  

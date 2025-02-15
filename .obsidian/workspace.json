@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/JavaScript Fundamentals.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JavaScript Fundamentals"
+              "title": "index"
             }
           }
         ]
@@ -188,36 +188,75 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "9a7b4e3349e9d76f",
+  "floating": {
+    "id": "7c456495b707f28c",
+    "type": "floating",
+    "children": [
+      {
+        "id": "d1d3885772bcb815",
+        "type": "window",
+        "children": [
+          {
+            "id": "d9e30e37901acc50",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "992adfd03d2f61cc",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Development Environment Setup.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Development Environment Setup"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1080,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "992adfd03d2f61cc",
   "lastOpenFiles": [
-    "index.md",
-    "Development Environment Setup.md",
-    "Group Project Requirements.md",
-    "_dist/hackathon-ticket.html",
-    "_dist/group-project-requirements.html",
-    "_dist/development-environment-setup.html",
-    "_dist/Content/state-management.html",
-    "_dist/Content/sqlite-database.html",
-    "_dist/Content/reactjs-basics.html",
-    "_dist/Content/prisma-orm.html",
-    "_dist/Content/expressjs.html",
-    "_dist/Content/es6.html",
-    "_dist/Content/dom-manipulation.html",
-    "Hackathon Ticket.md",
     "Timeline/Week 01.md",
     "Recap/Live Session Recap.md",
+    "index.md",
+    "Content/JavaScript Fundamentals.md",
+    "_dist/lib/metadata.json",
+    "_dist/lib/media/6155340132a851f6089e.svg",
+    "_dist/lib/media",
+    "_dist/lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "_dist/lib/fonts/05b618077343fbbd92b7.ttf",
+    "_dist/lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "_dist/lib/fonts/454577c22304619db035.ttf",
+    "_dist/lib/fonts/70cc7ff27245e82ad414.ttf",
+    "_dist/lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "_dist/lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "_dist/lib/fonts/b5f0f109bc88052d4000.woff2",
+    "Development Environment Setup.md",
+    "Group Project Requirements.md",
+    "Hackathon Ticket.md",
     "Content/State Management.md",
     "Content/SQLite Database.md",
     "Content/ReactJS Basics.md",
     "Content/Prisma ORM.md",
-    "Content/JavaScript Fundamentals.md",
     "Content/ExpressJS.md",
     "Content/ES6.md",
     "Content/DOM Manipulation.md",
     "Content/Component Architecture.md",
     "Content/Advanced Data Structures.md",
     "_dist/lib/media/favicon.png",
-    "_dist/lib/media/6155340132a851f6089e.svg",
     "bootcamp/timeline.md",
     "Untitled.md",
     "lib/media/favicon.png",
