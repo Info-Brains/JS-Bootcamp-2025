@@ -1,7 +1,7 @@
 {
   "settingsVersion": "1.8.01",
   "makeOfflineCompatible": true,
-  "inlineAssets": false,
+  "inlineAssets": true,
   "includePluginCSS": "buttons\ndataview",
   "includeSvelteCSS": true,
   "titleProperty": "JS Bootcamp",
@@ -16,20 +16,20 @@
   "allowResizingSidebars": true,
   "logLevel": "all",
   "minifyHTML": true,
-  "makeNamesWebStyle": true,
+  "makeNamesWebStyle": false,
   "onlyExportModified": true,
   "deleteOldFiles": true,
   "addThemeToggle": true,
   "addOutline": false,
   "addFileNav": true,
-  "addSearchBar": true,
+  "addSearchBar": false,
   "addGraphView": false,
   "addTitle": true,
   "addRSSFeed": true,
   "siteURL": "https://js-bootcamp-2025.infobrains.club/",
   "authorName": "Kellouche dhiya",
   "vaultTitle": "JS-Bootcamp-2025",
-  "exportPreset": "website",
+  "exportPreset": "documents",
   "openAfterExport": false,
   "graphAttractionForce": 1,
   "graphLinkLength": 10,
@@ -46,12 +46,10 @@
   "exportPath": "/Users/dhiya/Documents/JS-Bootcamp-2025/_dist",
   "filesToExport": [
     [
-      "Content",
+      "Content/JavaScript Fundamentals.md",
       "Recap",
       "Timeline",
       "Development Environment Setup.md",
-      "Group Project Requirements.md",
-      "Hackathon Ticket.md",
       "index.md"
     ]
   ]
