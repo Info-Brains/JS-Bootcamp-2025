@@ -4,37 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b727a44747ba957a",
+        "id": "f60c622472253b2b",
         "type": "tabs",
         "children": [
           {
-            "id": "9a7b4e3349e9d76f",
+            "id": "0278106a42c42302",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Slides/Week 01.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Week 01"
-            }
-          }
-        ]
-      },
-      {
-        "id": "448d0bc4ab2b7086",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d9c1409e90d8639c",
-            "type": "leaf",
-            "state": {
-              "type": "reveal-preview-view",
+              "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Slide Preview"
+              "title": "New tab"
             }
           }
         ]
@@ -112,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5,
-    "collapsed": true
+    "width": 326.5
   },
   "right": {
     "id": "9dd95aea741a2826",
@@ -207,7 +186,7 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "9a7b4e3349e9d76f",
+  "active": "0278106a42c42302",
   "lastOpenFiles": [
     "Slides/Week 01.md",
     "Timeline/Week 01.md",
