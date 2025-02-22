@@ -1,4 +1,176 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JS-Bootcamp-2025]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://js-bootcamp-2025.infobrains.club/</link><image><url>https://js-bootcamp-2025.infobrains.club/lib/media/favicon.png</url><title>JS-Bootcamp-2025</title><link>https://js-bootcamp-2025.infobrains.club/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 15 Feb 2025 13:09:26 GMT</lastBuildDate><atom:link href="https://js-bootcamp-2025.infobrains.club/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 15 Feb 2025 13:09:26 GMT</pubDate><copyright><![CDATA[Kellouche dhiya]]></copyright><ttl>60</ttl><dc:creator>Kellouche dhiya</dc:creator><item><title><![CDATA[JavaScript Fundamentals]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JS-Bootcamp-2025]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://js-bootcamp-2025.infobrains.club/</link><image><url>https://js-bootcamp-2025.infobrains.club/lib/media/favicon.png</url><title>JS-Bootcamp-2025</title><link>https://js-bootcamp-2025.infobrains.club/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 22 Feb 2025 17:40:45 GMT</lastBuildDate><atom:link href="https://js-bootcamp-2025.infobrains.club/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 22 Feb 2025 17:40:44 GMT</pubDate><copyright><![CDATA[Kellouche dhiya]]></copyright><ttl>60</ttl><dc:creator>Kellouche dhiya</dc:creator><item><title><![CDATA[Advanced JavaScript Concepts]]></title><description><![CDATA[ 
+ <br><br>
+<br>Arrow Functions: Shorter syntax and lexical this binding.
+const multiply = (a, b) =&gt; a * b;
+
+
+<br>Classes: Syntactic sugar for prototype-based inheritance.
+class Rectangle {
+  constructor(height, width) {
+    this.height = height;
+    this.width = width;
+  }
+}
+
+
+<br>Destructuring: Extract values from arrays/objects easily.
+const [x, y] = [10, 20];
+const { name, age } = user;
+
+
+<br><br>
+<br>Promises: Handle asynchronous operations cleanly.
+fetch('https://api.example.com/data')
+  .then(response =&gt; response.json())
+  .catch(error =&gt; console.error(error));
+
+
+<br>Async/Await: Write asynchronous code synchronously.
+async function loadData() {
+  const data = await fetchData();
+  console.log(data);
+}
+
+
+<br><br>Functions retain access to their outer scope even after execution.<br>function createCounter() {
+  let count = 0;
+  return () =&gt; count++; // Closure retains access to `count`
+}
+const counter = createCounter();
+counter(); // 0, 1, 2...
+<br><br><br><br>A cellular automaton with simple rules:<br>
+<br>Survival: Live cells with 2-3 neighbors stay alive.
+<br>Death: Live cells with &lt;2 or &gt;3 neighbors die.
+<br>Birth: Dead cells with exactly 3 neighbors become alive.
+<br><br><br>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Game of Life&lt;/title&gt;
+  &lt;style&gt;
+    canvas { border: 1px solid #333; }
+    .controls { margin: 10px; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class="controls"&gt;
+    &lt;button id="startBtn"&gt;Start&lt;/button&gt;
+    &lt;button id="clearBtn"&gt;Clear&lt;/button&gt;
+    &lt;button id="randomBtn"&gt;Random&lt;/button&gt;
+  &lt;/div&gt;
+  &lt;canvas id="gridCanvas"&gt;&lt;/canvas&gt;
+  &lt;script src="game.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+<br><br><br><br>class Game {
+  constructor(rows, cols, cellSize) {
+    this.rows = rows;
+    this.cols = cols;
+    this.cellSize = cellSize;
+    this.grid = this.createEmptyGrid();
+    this.isRunning = false;
+  }
+
+  createEmptyGrid() {
+    return Array(this.rows).fill()
+      .map(() =&gt; Array(this.cols).fill(false));
+  }
+
+  randomize() {
+    this.grid = this.grid.map(row =&gt; 
+      row.map(() =&gt; Math.random() &gt; 0.85)
+    );
+  }
+
+  countNeighbors(x, y) {
+    let count = 0;
+    for (let dy = -1; dy &lt;= 1; dy++) {
+      for (let dx = -1; dx &lt;= 1; dx++) {
+        if (dx === 0 &amp;&amp; dy === 0) continue; // Skip self
+        const nx = (x + dx + this.cols) % this.cols; // Wrap edges
+        const ny = (y + dy + this.rows) % this.rows;
+        if (this.grid[ny][nx]) count++;
+      }
+    }
+    return count;
+  }
+
+  update() {
+    const newGrid = this.createEmptyGrid();
+    for (let y = 0; y &lt; this.rows; y++) {
+      for (let x = 0; x &lt; this.cols; x++) {
+        const neighbors = this.countNeighbors(x, y);
+        const isAlive = this.grid[y][x];
+        newGrid[y][x] = (isAlive &amp;&amp; (neighbors === 2 || neighbors === 3)) ||
+                        (!isAlive &amp;&amp; neighbors === 3);
+      }
+    }
+    this.grid = newGrid;
+  }
+}
+<br><br><br>class Renderer {
+  constructor(canvas, game) {
+    this.canvas = canvas;
+    this.ctx = canvas.getContext('2d');
+    this.game = game;
+    canvas.width = game.cols * game.cellSize;
+    canvas.height = game.rows * game.cellSize;
+  }
+
+  draw() {
+    this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
+    for (let y = 0; y &lt; this.game.rows; y++) {
+      for (let x = 0; x &lt; this.game.cols; x++) {
+        if (this.game.grid[y][x]) {
+          this.ctx.fillStyle = '#000';
+          this.ctx.fillRect(
+            x * this.game.cellSize,
+            y * this.game.cellSize,
+            this.game.cellSize - 1,
+            this.game.cellSize - 1
+          );
+        }
+      }
+    }
+  }
+}
+<br><br><br>document.addEventListener('DOMContentLoaded', () =&gt; {
+  const game = new Game(40, 40, 15);
+  const canvas = document.getElementById('gridCanvas');
+  const renderer = new Renderer(canvas, game);
+  let intervalId = null;
+
+  // Button Event Handlers
+  document.getElementById('startBtn').addEventListener('click', () =&gt; {
+    game.isRunning = !game.isRunning;
+    if (game.isRunning) {
+      intervalId = setInterval(() =&gt; {
+        game.update();
+        renderer.draw();
+      }, 100);
+    } else {
+      clearInterval(intervalId);
+    }
+  });
+
+  document.getElementById('clearBtn').addEventListener('click', () =&gt; {
+    game.grid = game.createEmptyGrid();
+    renderer.draw();
+  });
+
+  document.getElementById('randomBtn').addEventListener('click', () =&gt; {
+    game.randomize();
+    renderer.draw();
+  });
+
+  // Initial Draw
+  renderer.draw();
+});
+<br><br><br>
+<br>Save the HTML and JS files.
+<br>Open the HTML file in a browser.
+<br>Click Random to seed the grid, then Start to begin the simulation.
+<br>Click Clear to reset or Stop to pause.
+]]></description><link>https://js-bootcamp-2025.infobrains.club/Content/Advanced JavaScript Concepts.html</link><guid isPermaLink="false">Content/Advanced JavaScript Concepts.md</guid><dc:creator><![CDATA[Kellouche dhiya]]></dc:creator><pubDate>Sat, 22 Feb 2025 14:23:52 GMT</pubDate></item><item><title><![CDATA[JavaScript Fundamentals]]></title><description><![CDATA[ 
  <br><br>
 <br>Definition: JavaScript (JS) is a programming language used to make websites interactive.
 <br>Role in Web Development:
@@ -62,7 +234,7 @@ while (count &gt; 0) {
   console.log(count); // 3, 2, 1
   count--;
 }
-]]></description><link>https://js-bootcamp-2025.infobrains.club/Content/JavaScript Fundamentals.html</link><guid isPermaLink="false">Content/JavaScript Fundamentals.md</guid><dc:creator><![CDATA[Kellouche dhiya]]></dc:creator><pubDate>Sat, 15 Feb 2025 12:28:08 GMT</pubDate></item><item><title><![CDATA[Live Session Recap]]></title><description><![CDATA[ 
+]]></description><link>https://js-bootcamp-2025.infobrains.club/Content/JavaScript Fundamentals.html</link><guid isPermaLink="false">Content/JavaScript Fundamentals.md</guid><dc:creator><![CDATA[Kellouche dhiya]]></dc:creator><pubDate>Sat, 15 Feb 2025 12:28:08 GMT</pubDate></item><item><title><![CDATA[Live Session 01 Recap]]></title><description><![CDATA[ 
  <br>What We Covered:<br>
 <br>Wrote "Hello, World!" in the console.
 <br>Created variables and practiced arithmetic.
@@ -129,7 +301,7 @@ const user = {
   name: "Bob",
   age: 30
 };
-]]></description><link>https://js-bootcamp-2025.infobrains.club/Recap/Live Session Recap.html</link><guid isPermaLink="false">Recap/Live Session Recap.md</guid><dc:creator><![CDATA[Kellouche dhiya]]></dc:creator><pubDate>Sat, 15 Feb 2025 13:09:01 GMT</pubDate></item><item><title><![CDATA[Week 01]]></title><description><![CDATA[ 
+]]></description><link>https://js-bootcamp-2025.infobrains.club/Recap/Live Session 01 Recap.html</link><guid isPermaLink="false">Recap/Live Session 01 Recap.md</guid><dc:creator><![CDATA[Kellouche dhiya]]></dc:creator><pubDate>Sat, 15 Feb 2025 13:09:01 GMT</pubDate></item><item><title><![CDATA[Week 01]]></title><description><![CDATA[ 
  <br><br>✅ What is the Web?<br>
 <br>How the web works: Clients, Servers &amp; the Internet
 <br>Websites vs. Web Applications
@@ -209,7 +381,7 @@ git add .
 git commit -m "First commit"
 <br><br><br>You’re now ready to start coding in JavaScript! 🎉]]></description><link>https://js-bootcamp-2025.infobrains.club/Development Environment Setup.html</link><guid isPermaLink="false">Development Environment Setup.md</guid><dc:creator><![CDATA[Kellouche dhiya]]></dc:creator><pubDate>Sat, 15 Feb 2025 13:08:04 GMT</pubDate></item><item><title><![CDATA[JS Bootcamp 2025]]></title><description><![CDATA[ 
  <br><br><br>👋 Welcome, Bootcamp Participants!<br>
-I’m <a data-href="Kellouche Dhiya" href="https://js-bootcamp-2025.infobrains.club/Kellouche Dhiya" class="internal-link" target="_self" rel="noopener nofollow">Kellouche Dhiya</a>, your mentor for this journey. Let’s crush these 10 weeks!  <br><br><br><br><br><br>Core Focus:: <a data-href="JavaScript Fundamentals" href="https://js-bootcamp-2025.infobrains.club/Content/JavaScript Fundamentals.html" class="internal-link" target="_self" rel="noopener nofollow">JavaScript Fundamentals</a> | <a data-href="ES6" href="https://js-bootcamp-2025.infobrains.club/Content/ES6.html" class="internal-link" target="_self" rel="noopener nofollow">ES6</a> | <a data-href="Advanced Data Structures" href="https://js-bootcamp-2025.infobrains.club/Content/Advanced Data Structures.html" class="internal-link" target="_self" rel="noopener nofollow">Advanced Data Structures</a> | <a data-href="DOM Manipulation" href="https://js-bootcamp-2025.infobrains.club/Content/DOM Manipulation.html" class="internal-link" target="_self" rel="noopener nofollow">DOM Manipulation</a>  <br><br>Core Focus:: <a data-href="ReactJS Basics" href="https://js-bootcamp-2025.infobrains.club/Content/ReactJS Basics.html" class="internal-link" target="_self" rel="noopener nofollow">ReactJS Basics</a> | <a data-href="State Management" href="https://js-bootcamp-2025.infobrains.club/Content/State Management.html" class="internal-link" target="_self" rel="noopener nofollow">State Management</a> | <a data-href="Component Architecture" href="https://js-bootcamp-2025.infobrains.club/Content/Component Architecture.html" class="internal-link" target="_self" rel="noopener nofollow">Component Architecture</a>  <br><br>Core Focus:: <a data-href="ExpressJS" href="https://js-bootcamp-2025.infobrains.club/Content/ExpressJS.html" class="internal-link" target="_self" rel="noopener nofollow">ExpressJS</a> | <a data-href="Prisma ORM" href="https://js-bootcamp-2025.infobrains.club/Content/Prisma ORM.html" class="internal-link" target="_self" rel="noopener nofollow">Prisma ORM</a> | <a data-href="SQLite Database" href="https://js-bootcamp-2025.infobrains.club/Content/SQLite Database.html" class="internal-link" target="_self" rel="noopener nofollow">SQLite Database</a>  <br><br>Final Challenge:: <a data-href="Group Project Requirements" href="https://js-bootcamp-2025.infobrains.club/Group Project Requirements.html" class="internal-link" target="_self" rel="noopener nofollow">Group Project Requirements</a> → Earn your <a data-href="Hackathon Ticket" href="https://js-bootcamp-2025.infobrains.club/Hackathon Ticket.html" class="internal-link" target="_self" rel="noopener nofollow">Hackathon Ticket</a>  <br><br><br>Hackathon Timeline (Post-Bootcamp)
+I’m <a data-href="Kellouche Dhiya" href="https://js-bootcamp-2025.infobrains.club/Kellouche Dhiya" class="internal-link" target="_self" rel="noopener nofollow">Kellouche Dhiya</a>, your mentor for this journey. Let’s crush these 10 weeks!  <br><br><br><br><br><br>Core Focus:: <a data-href="JavaScript Fundamentals" href="https://js-bootcamp-2025.infobrains.club/Content/JavaScript Fundamentals.html" class="internal-link" target="_self" rel="noopener nofollow">JavaScript Fundamentals</a> | <a data-href="Advanced JavaScript Concepts" href="https://js-bootcamp-2025.infobrains.club/Content/Advanced JavaScript Concepts.html" class="internal-link" target="_self" rel="noopener nofollow">Advanced JavaScript Concepts</a> | <a data-href="Advanced Data Structures" href="https://js-bootcamp-2025.infobrains.club/Content/Advanced Data Structures.html" class="internal-link" target="_self" rel="noopener nofollow">Advanced Data Structures</a> | <a data-href="DOM Manipulation" href="https://js-bootcamp-2025.infobrains.club/Content/DOM Manipulation.html" class="internal-link" target="_self" rel="noopener nofollow">DOM Manipulation</a>  <br><br>Core Focus:: <a data-href="ReactJS Basics" href="https://js-bootcamp-2025.infobrains.club/Content/ReactJS Basics.html" class="internal-link" target="_self" rel="noopener nofollow">ReactJS Basics</a> | <a data-href="State Management" href="https://js-bootcamp-2025.infobrains.club/Content/State Management.html" class="internal-link" target="_self" rel="noopener nofollow">State Management</a> | <a data-href="Component Architecture" href="https://js-bootcamp-2025.infobrains.club/Content/Component Architecture.html" class="internal-link" target="_self" rel="noopener nofollow">Component Architecture</a>  <br><br>Core Focus:: <a data-href="ExpressJS" href="https://js-bootcamp-2025.infobrains.club/Content/ExpressJS.html" class="internal-link" target="_self" rel="noopener nofollow">ExpressJS</a> | <a data-href="Prisma ORM" href="https://js-bootcamp-2025.infobrains.club/Content/Prisma ORM.html" class="internal-link" target="_self" rel="noopener nofollow">Prisma ORM</a> | <a data-href="SQLite Database" href="https://js-bootcamp-2025.infobrains.club/Content/SQLite Database.html" class="internal-link" target="_self" rel="noopener nofollow">SQLite Database</a>  <br><br>Final Challenge:: <a data-href="Group Project Requirements" href="https://js-bootcamp-2025.infobrains.club/Group Project Requirements.html" class="internal-link" target="_self" rel="noopener nofollow">Group Project Requirements</a> → Earn your <a data-href="Hackathon Ticket" href="https://js-bootcamp-2025.infobrains.club/Hackathon Ticket.html" class="internal-link" target="_self" rel="noopener nofollow">Hackathon Ticket</a>  <br><br><br>Hackathon Timeline (Post-Bootcamp)
 Day 1:: 6-hour coding sprint (Teams of 3)<br>
 Day 2:: Presentations + Winner Announcements<br>
 Prize:: Special mention in InfoBrains Community newsletter
@@ -230,4 +402,4 @@ Preparation:: Install <a data-href="Development Environment Setup" href="https:/
 
 <br>100 validated participants 🎉  
 
-]]></description><link>https://js-bootcamp-2025.infobrains.club/index.html</link><guid isPermaLink="false">index.md</guid><dc:creator><![CDATA[Kellouche dhiya]]></dc:creator><pubDate>Sat, 15 Feb 2025 13:07:08 GMT</pubDate></item></channel></rss>
+]]></description><link>https://js-bootcamp-2025.infobrains.club/index.html</link><guid isPermaLink="false">index.md</guid><dc:creator><![CDATA[Kellouche dhiya]]></dc:creator><pubDate>Sat, 22 Feb 2025 17:40:28 GMT</pubDate></item></channel></rss>

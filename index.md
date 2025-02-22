@@ -18,7 +18,7 @@ I’m **[[Kellouche Dhiya]]**, your mentor for this journey. Let’s crush these
 | 2    | - Advance js              | Learn more about DOM and JS        |
 ### 🔍 Phase Details
 #### 🧩 **Weeks 1-3**  
-**Core Focus**:: [[JavaScript Fundamentals]] | [[Advanced JavaScript Concepts**]] | [[Advanced Data Structures]] | [[DOM Manipulation]]  
+**Core Focus**:: [[JavaScript Fundamentals]] | [[Advanced JavaScript Concepts]] | [[Advanced Data Structures]] | [[DOM Manipulation]]  
 #### ⚛️ **Weeks 4-6**  
 **Core Focus**:: [[ReactJS Basics]] | [[State Management]] | [[Component Architecture]]  
 #### ⚙️ **Weeks 7-9**  

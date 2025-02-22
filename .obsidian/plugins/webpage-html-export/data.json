@@ -46,6 +46,7 @@
   "exportPath": "/Users/dhiya/Documents/JS-Bootcamp-2025/_dist",
   "filesToExport": [
     [
+      "Content/Advanced JavaScript Concepts.md",
       "Content/JavaScript Fundamentals.md",
       "Recap",
       "Timeline",
