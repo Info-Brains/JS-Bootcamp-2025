@@ -15,10 +15,10 @@ I’m **[[Kellouche Dhiya]]**, your mentor for this journey. Let’s crush these
 | Week | Focus Areas               | Goal                               |
 | ---- | ------------------------- | ---------------------------------- |
 | 1    | - JavaScript Fundamentals | Establish core programming concept |
-| 2    | - ES6 Syntax              |                                    |
+| 2    | - Advance js              | Learn more about DOM and JS        |
 ### 🔍 Phase Details
 #### 🧩 **Weeks 1-3**  
-**Core Focus**:: [[JavaScript Fundamentals]] | [[ES6]] | [[Advanced Data Structures]] | [[DOM Manipulation]]  
+**Core Focus**:: [[JavaScript Fundamentals]] | [[Advance JS]] | [[Advanced Data Structures]] | [[DOM Manipulation]]  
 #### ⚛️ **Weeks 4-6**  
 **Core Focus**:: [[ReactJS Basics]] | [[State Management]] | [[Component Architecture]]  
 #### ⚙️ **Weeks 7-9**  

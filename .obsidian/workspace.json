@@ -8,13 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0278106a42c42302",
+            "id": "ae1d884d0df678c4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Content/JavaScript Fundamentals.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "JavaScript Fundamentals"
             }
           }
         ]
@@ -186,17 +190,25 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "0278106a42c42302",
+  "active": "ae1d884d0df678c4",
   "lastOpenFiles": [
+    "Content/Prisma ORM.md",
+    "Content/State Management.md",
+    "Content/SQLite Database.md",
+    "Content/ReactJS Basics.md",
+    "Content/JavaScript Fundamentals.md",
+    "Content/Advanced Data Structures.md",
+    "Content/Component Architecture.md",
+    "Content/DOM Manipulation.md",
+    "index.md",
+    "Content/Advance JS.md",
+    "Hackathon Ticket.md",
+    "Development Environment Setup.md",
+    "Group Project Requirements.md",
     "Slides/Week 01.md",
     "Timeline/Week 01.md",
     "Recap/Live Session 01 Recap.md",
-    "Content/JavaScript Fundamentals.md",
     "Slides",
-    "index.md",
-    "Development Environment Setup.md",
-    "Group Project Requirements.md",
-    "Hackathon Ticket.md",
     "_dist/lib/metadata.json",
     "_dist/lib/media/6155340132a851f6089e.svg",
     "_dist/lib/media",
@@ -207,15 +219,7 @@
     "_dist/lib/fonts/70cc7ff27245e82ad414.ttf",
     "_dist/lib/fonts/535a6cf662596b3bd6a6.woff2",
     "_dist/lib/fonts/cbe0ae49c52c920fd563.woff2",
-    "Content/State Management.md",
-    "Content/SQLite Database.md",
-    "Content/ReactJS Basics.md",
-    "Content/Prisma ORM.md",
     "Content/ExpressJS.md",
-    "Content/ES6.md",
-    "Content/DOM Manipulation.md",
-    "Content/Component Architecture.md",
-    "Content/Advanced Data Structures.md",
     "_dist/lib/media/favicon.png",
     "bootcamp/timeline.md",
     "Untitled.md",
