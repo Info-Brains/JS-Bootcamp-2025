@@ -209,6 +209,3 @@ document.addEventListener('DOMContentLoaded', () => {
 2. Open the HTML file in a browser.
 3. Click **Random** to seed the grid, then **Start** to begin the simulation.
 4. Click **Clear** to reset or **Stop** to pause.
-
-**Try It!** Experiment with different grid sizes and update speeds by modifying the `Game` constructor parameters.
-```
