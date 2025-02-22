@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Content/JavaScript Fundamentals.md",
-                "mode": "source",
+                "file": "Content/Advanced JavaScript Concepts**.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JavaScript Fundamentals"
+              "title": "Advanced JavaScript Concepts**"
             }
           }
         ]
@@ -192,16 +192,16 @@
   },
   "active": "ae1d884d0df678c4",
   "lastOpenFiles": [
+    "Content/JavaScript Fundamentals.md",
     "Content/Prisma ORM.md",
     "Content/State Management.md",
     "Content/SQLite Database.md",
     "Content/ReactJS Basics.md",
-    "Content/JavaScript Fundamentals.md",
     "Content/Advanced Data Structures.md",
     "Content/Component Architecture.md",
     "Content/DOM Manipulation.md",
     "index.md",
-    "Content/Advance JS.md",
+    "Content/Advanced JavaScript Concepts**.md",
     "Hackathon Ticket.md",
     "Development Environment Setup.md",
     "Group Project Requirements.md",
